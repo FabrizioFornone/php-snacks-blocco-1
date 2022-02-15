@@ -46,10 +46,10 @@ $posts = [
 ];
 
 
-foreach ($posts as $key => $value) {
-    echo "<h1> $key : <h1>";
-    foreach ($value as $value) {
-        echo "<h3>" . $value["title"] . "<h3>" . "<h3>" . $value["author"] . "<h3>" . "<h3>" . $value["text"] . "<h3>";
+foreach ($posts as $post => $part) {
+    echo "<h1> $post : <h1>";
+    foreach ($part as $item) {
+        echo "<h3>" . $item["title"] . "<h3>" . "<h3>" . $item["author"] . "<h3>" . "<h3>" . $item["text"] . "<h3>";
     };
     echo "<hr/>";
 }
