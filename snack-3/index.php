@@ -49,7 +49,7 @@ $posts = [
 foreach ($posts as $post => $part) {
     echo "<h1> $post : <h1>";
     foreach ($part as $item) {
-        echo "<h3>" . $item["title"] . "<h3>" . "<h3>" . $item["author"] . "<h3>" . "<h3>" . $item["text"] . "<h3>";
+        echo "<h3>" . $item["title"] . "</h3>" . "<h3>" . $item["author"] . "</h3>" . "<h3>" . $item["text"] . "</h3>";
     };
     echo "<hr/>";
 }
